@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Study.ex01&apos; to &apos;ex01몸무게&apos;&#x0D;&#x0A;- Original project: &apos;JavaFestivalSrc&apos;&#x0D;&#x0A;- Original element: &apos;Study.ex01&apos;&#x0D;&#x0A;- Renamed element: &apos;Study.ex01몸무게&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ex01&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Study{ex01.java[ex01" matchStrategy="1" name="ex01몸무게" qualified="false" references="true" similarDeclarations="false" stamp="1673585651683" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,43 @@
+package Study;
+
+import java.util.Scanner;
+
+public class ex02시급계산기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("일한시간을 입력하세요 : ");
+		
+		int sum = 0;
+		int overtime = 5000 * 1.5;
+		
+			int time = sc.nextInt();
+			if ( time > 8 ) {
+				sum = time  * 5000;
+			}
+			else {
+				sum = time * ? ;
+			}
+			
+			System.out.printf("총 임금은 %d원 입니다.", sum );
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

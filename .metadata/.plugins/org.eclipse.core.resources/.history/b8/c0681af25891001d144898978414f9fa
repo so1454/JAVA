@@ -1,0 +1,23 @@
+package ex01_0110;
+
+public class Ex14확장for문 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// for - each(확장 for문)
+		// -배열안에 값을 순차적으로 꺼낼때 편리한 for문
+
+		int[] array = { 5, 4, 57, 56, 1, 5, 3, 6, 7 };
+		//기존방식
+		for(int i = 0 ; i < array.length ; i ++ ) {
+			System.out.print(array[i] + " ");
+			
+		}
+		
+		
+		
+		
+	}
+
+}

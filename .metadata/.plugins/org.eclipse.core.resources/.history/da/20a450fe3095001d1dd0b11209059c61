@@ -1,0 +1,27 @@
+package Study;
+
+public class Ex03_1부터100까지더하고빼기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 1-2+3-4+5-6+...+99-100
+		// 그리고 답 -50
+		
+		
+		int sum = 0;
+		int inum = 0;
+		for (int i = 1; i <= 10; i++) {
+			inum = i;
+			if (inum % 2 == 0) {
+				inum = inum * -1;
+			}
+			System.out.print("+" + inum);
+			sum += inum;
+		}
+		System.out.println();
+		System.out.println("답 : " + sum);
+
+	}
+
+}

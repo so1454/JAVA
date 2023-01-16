@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ex01일차원배열.Ex05배열실습&apos; to &apos;Ex05배열실습_re&apos;&#x0D;&#x0A;- Original project: &apos;Ex04&apos;&#x0D;&#x0A;- Original element: &apos;ex01일차원배열.Ex05배열실습&apos;&#x0D;&#x0A;- Renamed element: &apos;ex01일차원배열.Ex05배열실습_re&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ex05배열실습&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ex01일차원배열{Ex05배열실습.java[Ex05배열실습" matchStrategy="1" name="Ex05배열실습_re" qualified="false" references="true" similarDeclarations="false" stamp="1673775204418" textual="false" version="1.0"/>
+</session>

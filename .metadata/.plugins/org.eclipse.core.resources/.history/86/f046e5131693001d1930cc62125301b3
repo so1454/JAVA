@@ -1,0 +1,23 @@
+package ex01메소드;
+
+public class Ex03약수확인하기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		int result1 = difInNum(10,1);
+		System.out.println(isDivisor(10,2));
+		
+		
+		
+	}
+	
+	public static boolean isDivisor(int num1, int num2) {
+		
+		boolean divisor = num1 % num2 ==0 ? true : false;
+		
+		return divisor;
+	}
+	
+	
+}

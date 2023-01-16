@@ -1,0 +1,10 @@
+package ex02이차원배열;
+
+public class Ex07비정방형배열 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

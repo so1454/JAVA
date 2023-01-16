@@ -1,0 +1,44 @@
+package ex01_0110;
+
+import java.util.Scanner;
+
+public class Ex11배열실습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		int [] input = new int[5]; //초면인데요...
+		
+		System.out.println("==채점하기==");
+		
+		
+		System.out.println("답을 입력하세요 ");
+		int num = sc.nextInt();
+	
+		
+		for ( int i = 1 ; i <= 5 ; i++ ) {
+			
+			System.out.println(i + "번 답 >> ");
+			int an = sc.nextInt();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

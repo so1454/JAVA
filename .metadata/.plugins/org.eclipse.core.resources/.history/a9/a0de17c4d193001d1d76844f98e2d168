@@ -1,0 +1,44 @@
+package Study;
+
+public class Ex03_1부터100까지더하고빼기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//1-2+3-4+5-6+...+99-100
+		//그리고 답 -50
+		
+//		반복되는게 한정되어있음 -> for
+//		1 + 3 + 5 + 7 
+//		-2 -4 -6 -8 -10
+//		
+//		홀수는 더하고
+//		짝수는 뺌
+		
+		
+		int sum = 0;
+			
+			for(int i = 1 ; i <=100; i++) {
+				System.out.print("+"+ i + " ");
+				 if (i % 2 ==1) {
+					i--;
+					System.out.print("-" +i + " ");
+				}
+				
+				sum = sum + i;
+			}
+		
+		
+		
+		System.out.println("답 : ");
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

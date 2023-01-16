@@ -1,0 +1,10 @@
+package ex02이차원배열;
+
+public class Ex05지그재그 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

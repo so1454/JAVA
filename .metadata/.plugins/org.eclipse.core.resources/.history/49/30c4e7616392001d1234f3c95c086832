@@ -1,0 +1,44 @@
+package ex01;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//split() 이라는 기능을 찾아서 만들기
+		
+		String score = "A,A,B,C,D,A,C,D,D,D,F";
+		
+		String[] array = score.split(",");
+		
+		int cnt = 0;
+		for(int i=0; i<array.length ; i++) {
+			
+			System.out.println(array[i]);
+			cnt++;
+			}
+		
+		int cntA = 0;
+		int cntB = 0;
+		int cntC = 0;
+		int cntD = 0;
+		int cntF = 0;
+		
+		
+		
+		
+		
+		
+		
+		System.out.println("A : " + cntA +"명");
+		System.out.println("B : " + cntB+"명");
+		System.out.println("C : " + cntC+"명");
+		System.out.println("C : " + cntD+"명");
+		System.out.println("C : " + cntF+"명");
+		
+		
+		
+		
+	}
+
+}

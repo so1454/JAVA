@@ -1,0 +1,41 @@
+package Study;
+
+
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("현재 몸무게 : " );
+		int nowkg = sc.nextInt();
+		
+		System.out.println("목표 몸무게 : "  );
+		int goalkg = sc.nextInt();
+		
+		int week = 0;
+		
+		
+		do {
+			week++;
+			System.out.println(week +"주차 감량 몸무게 : " );
+			int reducekg = sc.nextInt();
+			
+			nowkg = nowkg-reducekg  ;
+		
+			
+		}while(goalkg < nowkg);
+		
+		System.out.println(nowkg + " kg 달성!! 축하합니다!!");
+		
+		
+		
+		
+		
+	}
+
+}

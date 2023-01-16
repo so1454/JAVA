@@ -1,0 +1,52 @@
+package ex01_0110;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Ex10배열실습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		Random rn = new Random();
+		// 아침, 점심, 저녁 메뉴 랜덤 뽑기
+		String[] breakfast = { "밥", "계란", "샌드위치", "두유", "카레" };
+		String[] lunch = { "떡갈비", "애호박찌개", "짜글이", "뭉티기", "비빔밥" };
+		String[] dinner = { "햄버거", "스테이크", "치킨", "부대찌개", "닭감자탕" };
+
+		while (true) {
+
+			System.out.println("식사를 선택해주세요 : ");
+			System.out.print(" 1.아침 2.점심 3.저녁 4.종료 >> ");
+
+			int choice = sc.nextInt();
+			if (choice == 1) {
+				System.out.println("====오늘의 추천 아침 메뉴====");
+				String br = rn.next(team[rn]);
+
+				System.out.println();
+			} else if (choice == 2) {
+				System.out.println("====오늘의 추천 점심 메뉴====");
+			} else if (choice == 3) {
+				System.out.println("====오늘의 추천 저녁 메뉴====");
+			} else if (choice == 4) {
+				System.out.println("프로그램을 종료합니다...");
+				break;
+			} else {
+				System.out.println("정확한 숫자를 입력해주세요.");
+			}
+		}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

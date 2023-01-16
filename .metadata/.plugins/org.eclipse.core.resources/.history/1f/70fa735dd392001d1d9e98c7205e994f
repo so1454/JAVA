@@ -1,0 +1,23 @@
+package Study;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("현재 몸무게 : ");
+		System.out.println("목표 몸무게 : ");
+		
+		
+		
+		System.out.println("%d주차 감량 몸무게 : " , 1);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
