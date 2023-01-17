@@ -21,13 +21,17 @@ public class StudentMain {
 		stu1.setScoreWeb(99);
 		stu1.setScoreAndroid(77);
 
-		//stu1 이름과 자바점수를 입력하세요!
+		// stu1 이름과 자바점수를 입력하세요!
 		
 		System.out.println(stu1.getName());
 		System.out.println(stu1.getScoreJava());
 		
-		
+		//이게 생성자 메소드로 움직이는 아이임
 		Student stu2 = new Student("임경남","20220458",20,90,25,50);
+		
+		// stu2 이름과 안드로이드 점수를 출력해주세요!
+		System.out.println(stu2.getName());
+		System.out.println(stu2.getScoreAndroid());
 		
 		//이 밑에걸 위에 간단하게 쓸 수 있음
 //		Student stu2 = new Student();
@@ -38,6 +42,10 @@ public class StudentMain {
 //		stu2.setScoreWeb(25);
 //		stu2.setScoreAndroid(50);
 
+
+		
+		
+		
 	}
 
 }

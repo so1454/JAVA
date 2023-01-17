@@ -22,8 +22,6 @@ public class Member {
 		name = inputName;		
 		age = inputAge;
 		System.out.println("회원가입 완료~~");
-		
-		
 	}
 	// 로그인한다.
 	public void logIn() {
