@@ -1,0 +1,40 @@
+package ex03객체지향실습;
+
+import ex02객체지향기초.Member;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student stu1 = new Student();
+		stu1.name = "구소현";
+		stu1.number = "20171191";
+		stu1.age = 20;
+		stu1.scoreJava = 50;
+		stu1.scoreWeb = 99;
+		stu1.scoreAndroid = 77; 
+		
+		Student stu2 = new Student();
+		stu2.name = "구소현";
+		stu2.number = "20220458";
+		stu2.age = 20;
+		stu2.scoreJava = 90;
+				stu2.scoreWeb = 25;
+				stu2.scoreAndroid = 50;
+				
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package ex02객체지향기초;
+
+public class MemberMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

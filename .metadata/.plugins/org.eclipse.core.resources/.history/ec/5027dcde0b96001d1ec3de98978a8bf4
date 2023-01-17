@@ -1,0 +1,44 @@
+package ex02객체지향기초;
+
+import java.util.Scanner;
+
+public class BankbookMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Bankbook B1 = new Bankbook();
+		Scanner sc = new Scanner(System.in);
+
+		
+		do {
+			B1.showMoney();
+			System.out.print("입금할 금액 >> ");
+			int in = sc.nextInt();
+
+			B1.deposit(in);
+			B1.showMoney();
+
+			System.out.print("출금할 금액 >> ");
+			int out = sc.nextInt();
+
+			B1.withdraw(out);
+			B1.showMoney();
+		}while(true);
+			
+//		B1.showMoney();
+//		System.out.print("입금할 금액 >> ");
+//		int in = sc.nextInt();
+//
+//		B1.deposit(in);
+//		B1.showMoney();
+//
+//		System.out.print("출금할 금액 >> ");
+//		int out = sc.nextInt();
+//
+//		B1.withdraw(out);
+//		B1.showMoney();
+
+	}
+
+}

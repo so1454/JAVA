@@ -1,0 +1,30 @@
+package ex03객체지향실습;
+
+public class Student { //설계도
+
+	// 속성정리
+	String name;
+	String number;
+	int age;
+	int scoreJava;
+	int scoreWeb;
+	int scoreAndroid;
+	
+	// 기능
+	public void stu1(){
+	name = "구소현";
+	n
+	}
+	public void stu2(){
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

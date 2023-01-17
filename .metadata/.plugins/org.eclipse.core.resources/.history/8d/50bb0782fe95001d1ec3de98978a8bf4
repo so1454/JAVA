@@ -1,0 +1,23 @@
+package ex02객체지향기초;
+
+public class MemberMain {
+	
+	// 실행하는 공간, 객체를 생성할 수 있는 공간
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 1. 클래스를 기반으로 객체를 생성
+		Memeber m1 = new Memeber();
+		//  - 객체 생성
+		//  - 자료형 변수명 = new 자료형();
+		System.out.println(m1);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

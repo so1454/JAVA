@@ -1,0 +1,41 @@
+package ex02객체지향기초;
+
+public class Bankbook {
+
+	// 속성
+	//잔액
+	int money ; 
+	
+	// 기능
+	// 입금하다(-)
+	public void deposit(int Money1) {
+		money = Money1 + money;
+		System.out.println("출금 금액 : "+Money1);
+	}
+	
+
+	
+	// 출금하다(-)
+	
+	public void withdraw(int Money2) {
+		money = money - Money2;
+		System.out.println("출금 금액 : "+Money2);
+	}
+
+	
+	
+	// 잔액 보기
+	
+	public void showMoney() {
+		System.out.println("총 잔액 : "+money);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

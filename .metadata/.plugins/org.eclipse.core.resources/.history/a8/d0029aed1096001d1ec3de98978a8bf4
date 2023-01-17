@@ -1,0 +1,36 @@
+package ex03객체지향실습;
+
+public class Student { //설계도
+
+	// 속성정리
+	private String name;   //여기서 붙힌 private은 값을 바꾸지 못하게 하기위해 하는 것
+	private String number;
+	private int age;
+	private int scoreJava;
+	private int scoreWeb;
+	private int scoreAndroid;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	// 기능
+//	public void stu1(){
+//	name = "구소현";
+//	n
+//	}
+//	public void stu2(){
+//		
+//	}
+//	
+	
+	
+	
+	
+	
+	
+	
+	
+}
