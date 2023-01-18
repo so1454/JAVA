@@ -8,5 +8,7 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="poketmonGame.Poketmon"/>
     <fullyQualifiedTypeName name="java.nio.channels.ScatteringByteChannel"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="arrayList기초.Person"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
