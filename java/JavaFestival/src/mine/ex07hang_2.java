@@ -11,24 +11,35 @@ public class ex07hang_2 {
 		System.out.print("행 개수 : ");
 		int hang = sc.nextInt();
 
+//		7 6 5 4 3 2 1 
+//		
+//		System.out.println("*******");
+//		System.out.println("******");
+//		System.out.println("*****");
 		
-		
-		
-		for (int j = hang; j > 0 ; j++) {
+	
+		while(true) {
+			for (int i = hang; i > 0; i--) {
 
-			for (int i = hang; i < j; i--) {
 				System.out.print("*");
+
 			}
-			System.out.println(" ");
+			if (hang < 0) {
+				break;
+			}
+			System.out.println("");
 		}
+			
 		
-		
-		
-		
-		
-		
-		
-		
+
+//		for (int j = hang; j > 0 ; j++) {
+//
+//			for (int i = hang; i < j; i--) {
+//				
+//			}
+//			System.out.println(" ");
+//		}
+
 	}
 
 }
