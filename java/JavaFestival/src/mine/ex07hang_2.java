@@ -17,18 +17,18 @@ public class ex07hang_2 {
 //		System.out.println("******");
 //		System.out.println("*****");
 		
-	
-		while(true) {
-			for (int i = hang; i > 0; i--) {
-
+		for (int j = 0 ; j < 0 ; j ++) {
+			for (int i = hang ; i > j ; i --) {
 				System.out.print("*");
-
-			}
-			if (hang < 0) {
-				break;
 			}
 			System.out.println("");
 		}
+		
+		
+//		for (int i = hang ; i > 1 ; i --) {
+//			System.out.print("*");
+//		}
+		
 			
 		
 
