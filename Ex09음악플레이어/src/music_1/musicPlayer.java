@@ -9,7 +9,7 @@ import javazoom.jl.player.MP3Player;
 public class musicPlayer {
 
 	
-	static ArrayList<MusicVO> musicList = null;  //경로를 여기에서 잡아줌(아니 뭔 개소리여)
+	static ArrayList<MusicDTO> musicList = null;  //경로를 여기에서 잡아줌(아니 뭔 개소리여)
 	static MP3Player mp3 = null ;
 	
 	public static void main(String[] args) {
@@ -25,12 +25,12 @@ public class musicPlayer {
 		musicList = new ArrayList<>();
 
 //		MusicVO music1 = new MusicVO("뉴진스", "Hype boy", "C:/music/뉴진스-HypeBoy.mp3");
-		MusicVO music2 = new MusicVO("르세라핌", "AntiFragile", "C:/music/르세라핌-Antifragile.mp3");
-		MusicVO music3 = new MusicVO("아이브", "LoveDive", "C:/music/아이브-LoveDive.mp3");
-		MusicVO music4 = new MusicVO("윤하", "사건의 지평선", "C:/music/윤하-사건의지평선.mp3");
-		MusicVO music5 = new MusicVO("카라", "When I Move", "C:/music/카라-WhenIMove.mp3");
+		MusicDTO music2 = new MusicDTO("르세라핌", "AntiFragile", "C:/music/르세라핌-Antifragile.mp3");
+		MusicDTO music3 = new MusicDTO("아이브", "LoveDive", "C:/music/아이브-LoveDive.mp3");
+		MusicDTO music4 = new MusicDTO("윤하", "사건의 지평선", "C:/music/윤하-사건의지평선.mp3");
+		MusicDTO music5 = new MusicDTO("카라", "When I Move", "C:/music/카라-WhenIMove.mp3");
 
-		musicList.add(new MusicVO("뉴진스", "Hype boy", "C:/music/뉴진스-HypeBoy.mp3"));
+		musicList.add(new MusicDTO("뉴진스", "Hype boy", "C:/music/뉴진스-HypeBoy.mp3"));
 		musicList.add(music2);
 		musicList.add(music3);
 		musicList.add(music4);
