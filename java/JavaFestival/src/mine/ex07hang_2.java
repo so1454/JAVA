@@ -17,28 +17,25 @@ public class ex07hang_2 {
 //		System.out.println("******");
 //		System.out.println("*****");
 		
-		for (int j = 0 ; j < 0 ; j ++) {
+		for (int j = 0 ; j < hang ; j ++) {
 			for (int i = hang ; i > j ; i --) {
 				System.out.print("*");
 			}
 			System.out.println("");
 		}
 		
-		
+//		for (int i = hang ; i > 0 ; i --) {
+//		System.out.print("*");
+//		}
 //		for (int i = hang ; i > 1 ; i --) {
 //			System.out.print("*");
 //		}
-		
+//		for (int i = hang ; i > 6 ; i --) {
+//			System.out.print("*");
+//		}
 			
 		
 
-//		for (int j = hang; j > 0 ; j++) {
-//
-//			for (int i = hang; i < j; i--) {
-//				
-//			}
-//			System.out.println(" ");
-//		}
 
 	}
 
