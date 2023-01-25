@@ -12,7 +12,7 @@ public class MusicCon {
 	// protected : 상속관계에서 접근 가능 + 같은 패키지 내에서 접근 가능
 	// (default) --> 아무것도 안씀(생략함을 의미) : 같은 패키지 내에서 접근 가능
 	// private : 클래스 내부에서만 접근
-	private MP3Player mp3 = new MP3Player(); //여기 중간에 바꾸셨는데..머라고..?
+	private MP3Player mp3; //여기 중간에 바꾸셨는데..머라고..?
 	private ArrayList<MusicDTO> musicList;
 
 //	private MP3Player mp3 = new MP3Player(); (이렇게 하면 머가 안좋대)
