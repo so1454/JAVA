@@ -15,7 +15,15 @@ public class Ex16alphabet {
 		
 		String [] alpha = a.split("");;
 		int sum = 0;
-//		for( int i = 0 ; i <alpha.length ; i ++) {
+		
+		for( int i = 0 ; i <alpha.length ; i ++) {
+			
+			
+			
+		}
+			
+			
+			
 			
 			
 //			https://jiheenote.tistory.com/21	

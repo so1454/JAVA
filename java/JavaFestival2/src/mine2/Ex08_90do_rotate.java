@@ -1,6 +1,6 @@
 package mine2;
 
-public class Ex08_90do_spin {
+public class Ex08_90do_rotate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

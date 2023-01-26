@@ -42,6 +42,7 @@ public class Ex04_SelectAll {
 			
 			// 한개만 출력할때는 if문 여러개 출력시에는 while문 해주기                 
 			System.out.printf("%s\t %s\t %s\t%n","아이디","이름","전화번호");
+			
 			while(rs.next()) { // 커서를 한줄 내림 하나씩 내리면서 id, name, pw를 출력해준다는 말
 //				
 //				String id = rs.getString(1);
