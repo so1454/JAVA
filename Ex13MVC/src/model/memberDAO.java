@@ -286,7 +286,7 @@ public class memberDAO {
 
 			psmt = conn.prepareStatement(sql);
 			
-			psmt.setString(1,dto3.getId());
+			psmt.setString(1,dto3.getId()); // dto에 있는거 getId로 출력 시켜줌
 			psmt.setString(2,dto3.getPw());
 			
 //			psmt.setString(1, id);

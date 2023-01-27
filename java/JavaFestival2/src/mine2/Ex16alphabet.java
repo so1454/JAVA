@@ -18,7 +18,7 @@ public class Ex16alphabet {
 		
 		for( int i = 0 ; i <alpha.length ; i ++) {
 			
-			
+			// 이거 맞어...??
 			
 		}
 			

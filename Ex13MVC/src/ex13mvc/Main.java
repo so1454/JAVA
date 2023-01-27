@@ -116,14 +116,15 @@ public class Main {
 
 				// 2. 회원의(누구의) pw, name, tel를 수정
 
-				//쌤이한거
-				memberDTO dto = new memberDTO(id,pw,name,tel);
-				int row = dao.update(dto);
+				//쌤이한거 // 일단 dot불러주고 DTO에 값을 담음
+				memberDTO dto = new memberDTO(id,pw,name,tel);  // 이렇게 담아줘도 set으로 담기나봄
+				int row = dao.update(dto); // dto에 담은거 row로 리턴해줄꺼니까
 				
 //				 내가한거
 //				dao.update(name, tel, id, pw);
 //				int row = dao.update(name, tel, id, pw);
-
+				
+				// 리턴한 row값을 받아서 돌림
 				if (row > 0) { // 행이 0이 아니면 회원가입이 된거니까 (행이 1로 채워진거니까)
 					System.out.println("수정 성공");
 				} else {
@@ -140,11 +141,13 @@ public class Main {
 
 				System.out.print("현재 PW 입력 : ");
 				String pw = sc.next();
-
-				memberDTO dto = new memberDTO();
-				dto.setId(id);
-				dto.setPw(pw);
-//				memberDTO dto = new memberDTO(id, pw, "", "");
+				
+				
+//				memberDTO dto = new memberDTO(id, pw, "", ""); 이렇게 해야 더 짧겠쥬?
+				memberDTO dto = new memberDTO();  // 일단 dto먼저 불러주기
+				dto.setId(id); // setId로 담아줌
+				dto.setPw(pw);  // 이렇게 세줄로 표현해줘도 된긴한다. // 근데 가시적으로 이게 보기 쉽다.
+				
 				int row = dao.delete(dto);
 				
 //				dao.delete(id,pw);
@@ -155,13 +158,6 @@ public class Main {
 				} 
 				
 				
-				
-				
-				
-				
-				
-				
-
 			} else if (choice == 6) {
 				// 종료
 				System.out.println("종료합니다.");
