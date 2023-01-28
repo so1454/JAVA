@@ -15,10 +15,8 @@ public class Ex18jungsuplus {
 		// int > String 하려면 .Integer.toString(숫자);
 		// String 클래스 > length(); 문자열의 길이를 알수있다. "ABC" => 3
 		
-		String str = Integer.toString(num);  //원래 int로 선언된거를 string으로 바꿔줌
-		
 		// 배열 선언 입력받은 정수 담아줄꺼임
-		int[] array = new int[str.length()];
+		int[] array = new int[num];  
 		
 		
 		

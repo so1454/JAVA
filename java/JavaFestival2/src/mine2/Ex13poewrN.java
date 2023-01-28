@@ -17,8 +17,8 @@ public class Ex13poewrN {
 	private static int powerN(int base, int n) {
 		// TODO Auto-generated method stub
 		
-		// 2*2*2 = 2^3
-		// 2*2*2*2 = 2^4
+		// 2*2/*2 = 2^3
+		// 2*2/*2/*2 = 2^4
 		int result = base;
 		for( int i = 1 ; i < n ; i++) {
 			result *= base;

@@ -6,11 +6,16 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\smhrd\Desktop\2017.12.4_rhythm-game-master"/>
+			<item value="C:\Users\smhrd\Desktop\버블버블\Java-Swing-BubbleGame-master"/>
+			<item value="C:\Users\smhrd\Downloads\home_notebook-main\home_notebook-main\JavaFestival2\src\mine2"/>
 			<item value="C:\Users\smhrd\eclipse-workspace\java\JavaFestival2"/>
 			<item value="C:\Users\smhrd\eclipse-workspace\java\JavaFestival"/>
 			<item value="C:\Users\smhrd\Desktop\JAVA_SWING_TETRIS-master"/>
 			<item value="C:\Users\smhrd\Downloads\가져가기"/>
 			<item value="C:\Users\smhrd\Documents\카카오톡 받은 파일\JavaFestivalSrc"/>
 		</list>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>
