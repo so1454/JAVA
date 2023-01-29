@@ -10,8 +10,6 @@ public class Ex13poewrN {
 		int result = powerN(base,n);
 		System.out.println("결과확인 : " + result);
 		
-		
-		
 	}
 
 	private static int powerN(int base, int n) {

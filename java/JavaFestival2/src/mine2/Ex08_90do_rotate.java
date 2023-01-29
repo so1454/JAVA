@@ -27,7 +27,7 @@ public class Ex08_90do_rotate {
 
 		for (int i = 0; i < array.length; i++) {
 
-			for (int j = array[i].length-1; j >= 0; j--) {
+			for (int j = array[i].length-1 ; j >= 0; j--) { //  array[i].length-1 ==> 그냥 4라고 적어도 될듯
 				array[j][i] = cnt;
 				cnt++;
 			}

@@ -11,15 +11,16 @@ public class Ex10dash {
 		String num = sc.next();
 
 		String[] array = num.split("");
+		
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
-			switch (array[i]) {
+			switch (array[i]) { // 이 값과 동일한 값을 출력할꺼다 라는 뜻
 
-			case "0":
-				sum += 6;
+			case "0": //만약 0이면
+				sum += 6; // 6 더해줄꺼다.
 				break;
-			case "1":
-				sum += 2;
+			case "1": // 만약 1이면 
+				sum += 2; // 2룰 더해줄꺼다.
 				break;
 			case "2":
 				sum += 5;

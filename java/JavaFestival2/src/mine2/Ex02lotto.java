@@ -2,7 +2,7 @@ package mine2;
 
 import java.util.Random;
 
-public class Ex01lotto {
+public class Ex02lotto {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

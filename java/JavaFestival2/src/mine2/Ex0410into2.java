@@ -19,18 +19,19 @@ public class Ex0410into2 {
 		int na = 0;
 		
 		do {
-			mok = num10 / 2;  
+			mok = num10 / 2; 
 			na = num10 % 2;  
 			
 			array2 [arrayIndex] = na; // 0 이 담김
 			
-			num10 = mok; 
+			num10 = mok;
 			
 			arrayIndex += 1 ;
 			
 		}while( num10 != 0);
 		
 		arrayIndex = arrayIndex -1;
+		
 		for ( int i = arrayIndex ; i >= 0 ; i --) {
 			System.out.print( array2[i]+"");
 		}

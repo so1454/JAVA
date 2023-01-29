@@ -20,7 +20,7 @@ public class Ex16_nxn {
 			}
 
 			for (int i = 0; i < array.length; i++) {
-				System.out.print(array[j][i] +"\t");
+				System.out.print(array[j][i] +" ");
 			}
 			System.out.println("");
 		}
