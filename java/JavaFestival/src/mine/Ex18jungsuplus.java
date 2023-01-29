@@ -27,6 +27,9 @@ public class Ex18jungsuplus {
 		
 		
 		
+
+		// 배열 선언 입력받은 정수 담아줄꺼임
+		int[] array = new int[num];  
 		
 		
 		
