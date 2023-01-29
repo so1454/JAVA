@@ -7,6 +7,7 @@ public class Ex13_twoarray_int {
 
 		int[][] array = new int[5][5];
 		
+		
 //
 //		array[0][0] = 1;
 //		array[0][1] = 6;
@@ -19,7 +20,7 @@ public class Ex13_twoarray_int {
 //		array[1][2] = 12;
 //		array[1][3] = 17;
 //		array[1][4] = 22;
-		
+//		
 		int cnt = 1;
 		for(int j = 0 ; j < 5 ; j ++) {
 			for(int i = 0 ; i < array.length ; i ++) {

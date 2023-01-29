@@ -6,6 +6,8 @@ public class Ex10A_Z {
 		// TODO Auto-generated method stub
 
 		// %X는 16진수의 정수로 출력됨
+		
+		
 		int i = 0;
 		char AtoZ = 'a';
 		 i = AtoZ;

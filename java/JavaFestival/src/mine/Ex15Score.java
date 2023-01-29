@@ -6,7 +6,7 @@ public class Ex15Score {
 		// TODO Auto-generated method stub
 
 		String score = "A,A,B,C,D,A,C,D,D,D,F";
-
+		
 		String[] array = score.split(",");
 
 		int a = 0;

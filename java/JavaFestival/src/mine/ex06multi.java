@@ -11,7 +11,8 @@ public class ex06multi {
 //		75*3
 //		..
 //		1*77
-
+		
+		
 		int i = 1;
 		int j = 77;
 		
@@ -24,6 +25,7 @@ public class ex06multi {
 		}
 		System.out.println(sum);
 
+		
 		
 		
 		

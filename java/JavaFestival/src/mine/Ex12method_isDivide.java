@@ -10,15 +10,14 @@ public class Ex12method_isDivide {
 		boolean result = isDivide(num1,num2);
 		System.out.println("결과확인 : " + result);
 		
-		
 	}
 
 	private static boolean isDivide(int num1, int num2) {
 		// TODO Auto-generated method stub
-		
-		if (num1 % num2 ==0) {
+
+		if (num1 % num2 == 0) {
 			return true;
-		}else {
+		} else {
 			return false;
 		}
 		

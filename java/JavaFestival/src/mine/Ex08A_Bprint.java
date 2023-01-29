@@ -8,7 +8,7 @@ public class Ex08A_Bprint {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-
+		
 		while (true) {
 			System.out.print("A입력 >> ");
 			int A1 = sc.nextInt();

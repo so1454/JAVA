@@ -10,7 +10,7 @@ public class ex07hang_2 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("행 개수 : ");
 		int hang = sc.nextInt();
-
+			
 //		7 6 5 4 3 2 1 
 //		
 //		System.out.println("*******");
