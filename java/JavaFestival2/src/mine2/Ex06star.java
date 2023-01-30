@@ -6,7 +6,16 @@ public class Ex06star {
 		// TODO Auto-generated method stub
 
 		
+		
+		
+		
 		for(int j = 0 ; j < 6 ; j++) {
+			
+			for (int c = 6 ; c > j; c--) {
+				
+				System.out.print(" ");
+				
+			}
 			
 			for(int i = 0 ; i < j ; i++) {
 				
