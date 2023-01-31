@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="music_1.MusicDAO"/>
     <fullyQualifiedTypeName name="music_1.Musiccon"/>
     <fullyQualifiedTypeName name="javazoom.jl.player.MP3Player"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.beans.Statement"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
@@ -20,5 +19,7 @@
     <fullyQualifiedTypeName name="model.memberDTO"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
