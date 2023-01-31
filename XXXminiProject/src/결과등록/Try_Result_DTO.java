@@ -19,6 +19,13 @@ public class Try_Result_DTO {
 	}
 	
 	
+	// 기본생성자
+
+	public Try_Result_DTO() {
+		super();
+	}
+
+
 
 	public String getStuid() {
 		return Stuid;

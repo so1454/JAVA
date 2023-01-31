@@ -33,6 +33,11 @@ public class Try_Result_DAO {
 
 			row = psmt.executeUpdate();
 
+			//만약 학생아이디와 문제아이디 안에있는 데이터가 아니라면
+			
+			
+			
+			
 			
 
 		} catch (Exception e) {
