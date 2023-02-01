@@ -6,6 +6,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\smhrd\Desktop\Mini_project"/>
+			<item value="C:\Users\smhrd\Desktop\2월miniproject"/>
 			<item value="C:\Users\smhrd\Desktop\2017.12.4_rhythm-game-master"/>
 			<item value="C:\Users\smhrd\Desktop\버블버블\Java-Swing-BubbleGame-master"/>
 			<item value="C:\Users\smhrd\Downloads\home_notebook-main\home_notebook-main\JavaFestival2\src\mine2"/>

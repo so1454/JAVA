@@ -50,7 +50,7 @@ public class ex06배열문제 {
 //		5. 최고 점수 출력
 //		6. 최저점수 출력
 		
-		int max = array[0];
+		max = array[0];
 		int min = array[0];
 		
 		for (int i = 0; i< array.length; i++) {

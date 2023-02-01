@@ -3,14 +3,14 @@ package 결과등록;
 public class Try_Result_DTO {
 
 	private String Stuid ;
-	private int QueId ;
+	private String QueId ;
 	private String isSuccess ;
 	private int getScore ;
 	
 	
 	
 	
-	public Try_Result_DTO(String stuid, int queId, String isSuccess, int getScore) {
+	public Try_Result_DTO(String stuid, String queId, String isSuccess, int getScore) {
 		super();
 		Stuid = stuid;
 		QueId = queId;
@@ -22,7 +22,6 @@ public class Try_Result_DTO {
 	// 기본생성자
 
 	public Try_Result_DTO() {
-		super();
 	}
 
 
@@ -33,10 +32,10 @@ public class Try_Result_DTO {
 	public void setStuid(String stuid) {
 		Stuid = stuid;
 	}
-	public int getQueId() {
+	public String getQueId() {
 		return QueId;
 	}
-	public void setQueId(int queId) {
+	public void setQueId(String queId) {
 		QueId = queId;
 	}
 	public String getIsSuccess() {
