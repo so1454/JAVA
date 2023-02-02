@@ -10,12 +10,12 @@ public class Try_Result_DTO {
 	
 	
 	
-	public Try_Result_DTO(String stuid, String queId, String isSuccess, String array2) {
+	public Try_Result_DTO(String stuid, String queId, String isSuccess, String getScore) {
 		super();
 		Stuid = stuid;
 		QueId = queId;
 		this.isSuccess = isSuccess;
-		this.getScore = array2;
+		this.getScore = getScore;
 	}
 	
 	

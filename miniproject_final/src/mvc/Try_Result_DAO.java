@@ -1,4 +1,4 @@
-package tryresult;
+package mvc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -53,7 +53,7 @@ public class Try_Result_DAO {
 
 	}
 
-	public int Tryreult(Try_Result_DTO Tdto) {
+	public int Tryreult(Try_Result_DTO Tdto) { // 성공용
 
 		PreparedStatement psmt = null;
 		Connection conn = null;
@@ -70,17 +70,7 @@ public class Try_Result_DAO {
 
 			conn = DriverManager.getConnection(url, user_id, user_pw);
 
-			
-			
-			
-			
 			String iQScore = getScroeFromQid(Tdto.getQueId());
-			
-			
-			
-			
-			
-			
 
 			String sql = "insert into TRYRESULT values(TRID_seq.NEXTVAL,?,?,?,?)";
 			psmt = conn.prepareStatement(sql);
@@ -115,29 +105,41 @@ public class Try_Result_DAO {
 
 	}
 
-	private String getScroeFromQid(String A) {
-//		select qscore from question
-//		where questionid = 10;
+	public int Tryreult2(Try_Result_DTO Tdto) { // 실패용
+
 		PreparedStatement psmt = null;
 		Connection conn = null;
-		ResultSet rs = null;
 
-		Try_Result_DTO Tdto = new Try_Result_DTO();
+		int row = 0;
 
 		try {
 
-			String sql = "select qscore from question where questionid = ?";
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+
+			String url = "jdbc:oracle:thin:@gjaischool-b.ddns.net:1525:xe";
+			String user_id = "cgi_3_0131_2";
+			String user_pw = "smhrd2";
+
+			conn = DriverManager.getConnection(url, user_id, user_pw);
+
+			String sql = "insert into TRYRESULT values(TRID_seq.NEXTVAL,?,?,?,?)";
 			psmt = conn.prepareStatement(sql);
 
-			psmt.setString(1, Tdto.getQueId());
-			rs = psmt.executeQuery();
+			psmt.setString(1, Tdto.getStuid());
+			psmt.setString(2, Tdto.getQueId());
+			psmt.setString(3, Tdto.getIsSuccess());
+			psmt.setString(4, "0");
+
+//			psmt.setString(4, Tdto.getGetScore());
+
+			row = psmt.executeUpdate();
+
+			// 만약 학생아이디와 문제아이디 안에있는 데이터가 아니라면 실패뜨는 문구부터 해보자
 
 		} catch (Exception e) {
-
 			e.printStackTrace();
 
 		}
-
 		try {
 			if (psmt != null)
 				psmt.close();
@@ -148,11 +150,58 @@ public class Try_Result_DAO {
 
 			e.printStackTrace();
 		}
-		
-		
-	
 
-		return Tdto;
+		return row;
+
+	}
+
+	public String getScroeFromQid(String queId) {
+		// TODO Auto-generated method stub
+
+		PreparedStatement psmt = null;
+		Connection conn = null;
+		ResultSet rs = null;
+		String que = null;
+		try {
+
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+
+			String url = "jdbc:oracle:thin:@gjaischool-b.ddns.net:1525:xe";
+			String user_id = "cgi_3_0131_2";
+			String user_pw = "smhrd2";
+
+			conn = DriverManager.getConnection(url, user_id, user_pw);
+
+			String sql = "select qscore from question where questionid = ?";
+			psmt = conn.prepareStatement(sql);
+
+			psmt.setString(1, queId);
+
+			rs = psmt.executeQuery();
+
+			while (rs.next()) {
+				que = rs.getString(1);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		try {
+			if (rs != null)
+				rs.close();
+			if (psmt != null)
+				psmt.close();
+			if (conn != null)
+				conn.close();
+
+		} catch (SQLException e) {
+
+			e.printStackTrace();
+		}
+
+		return que;
+
 	}
 
 }

@@ -6,6 +6,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\smhrd\Desktop\이름없음_01\2월miniproject"/>
+			<item value="C:\Users\smhrd\Desktop\miniproject_ALL\2월miniproject"/>
+			<item value="C:\Users\smhrd\eclipse-workspace\XXXminiProject"/>
 			<item value="C:\Users\smhrd\Desktop\Mini_project"/>
 			<item value="C:\Users\smhrd\Desktop\2월miniproject"/>
 			<item value="C:\Users\smhrd\Desktop\2017.12.4_rhythm-game-master"/>
