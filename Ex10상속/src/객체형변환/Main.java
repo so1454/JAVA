@@ -43,19 +43,6 @@ public class Main {
 		sp1.wifi();
 		sp1.message();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="music_1.Musiccon"/>
     <fullyQualifiedTypeName name="javazoom.jl.player.MP3Player"/>
     <fullyQualifiedTypeName name="java.beans.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="model.memeberDTO"/>
     <fullyQualifiedTypeName name="model.memberDAO"/>
     <fullyQualifiedTypeName name="model.memberDTO"/>
@@ -18,7 +17,6 @@
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.swing.text.GapContent"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="결과등록.StudentMemberDAO"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -26,5 +24,12 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="model.Try_Result_DAO"/>
     <fullyQualifiedTypeName name="model.Try_Result_DTO"/>
+    <fullyQualifiedTypeName name="java.nio.channels.Channel"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="javatest.SmartPhone"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

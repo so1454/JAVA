@@ -4,7 +4,6 @@ public class Child extends Parents {
 	//새로운 클래스, 자식클래스, 서브클래스
 	//식당 2호점
 	
-	
 	public void makeKal(){
 		System.out.println("칼국수를 만들자! 휘리릭~");
 	}
@@ -21,27 +20,4 @@ public class Child extends Parents {
 			// p에 있던걸 c에서 재정의 해준거니까
 			// 재정의된 c.makeKimchi 를 출력하면 c를 먼저 가서 확인하고 있으면 그걸먼저 가져온다.
 			// 그리고 나서 p를 가는거임
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
