@@ -6,6 +6,7 @@ public class MemberDTO {
 	private String pw;
 	private String nick;
 	
+
 	
 	public MemberDTO() {
 	}
